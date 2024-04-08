@@ -1,0 +1,591 @@
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/georgia.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Palatino";
+    src: url(../fonts/palatinolinotype_roman.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*Хедeр*/
+
+.container_header{
+    max-width: 60%;
+    margin: 0% auto;
+    height: 438px;
+    background-color: white;
+}
+
+.header_main{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.nav{
+    padding-left: 800px;
+}
+
+.nav ul{
+    display: flex;
+    
+}
+
+.nav li{
+    padding-left: 40px;
+    list-style: none;
+    font-weight: 400;
+
+}
+
+.nav-item{
+    color: #353732;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block{
+    margin-top: 100px;
+}
+
+.block_name{
+    justify-content: center;
+    display: flex;
+    padding-right: 650px;
+}
+
+.name{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin-top: 10px;
+    color: rgb(65, 65, 65);
+    padding-right: 90px;
+}
+
+/*секция 1*/
+
+.section1{
+    max-width: 1440px;
+    margin: 0% auto;
+    height: 1450px;
+    background-color: rgb(247, 247, 247);
+}
+
+.container_main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.card1_img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color:dimgray;
+}
+
+.text1{
+    padding-left: 20px;
+}
+
+.namis{
+    font-size: 12px;
+    font-family: "Poppins";
+    color: #353732;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 12px;
+}
+
+.utopia_1{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 25px;
+    line-height: 33.6px;
+}
+
+.utopia_2{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.utopia_3{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.utopia_4{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.utopia_5{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.utopia_6{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+.utopia_7{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.utopia_8{
+    font-family: "Palatino";
+    font-weight: 400;
+    color: #45525B;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+.minitext{
+    font-size: 11px;
+    line-height: 16.8px;
+    font-weight: 400;
+    font-family: 'Georgia';
+}
+
+.card2_img{
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color:dimgray;
+    height: 255px;
+    margin-bottom: 15px;
+}
+
+.card3_img{
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color:dimgray;
+}
+
+.card4_img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color:dimgray;
+    width: 374px;
+}
+
+.block3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card5_img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color:dimgray;
+}
+
+.card6_img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color:dimgray;
+    margin-left: 20px;
+}
+
+.card7_img{
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color:dimgray;
+    margin-left: 20px;
+}
+
+/*секция 2*/ 
+
+.section2{
+    max-width: 40%;
+    margin: 0% auto;
+    height: 400px;
+    background-color: white;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.num{
+    font-size: 28px;
+    line-height: 38.4px;
+    font-weight: 400;
+    font-family: 'Palatino';
+    color: #353732;
+}
+
+.etc{
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: #353732;
+    font-family: 'Georgia';
+    white-space: nowrap;
+}
+
+.search{
+    margin-left: 50px;
+}
+
+.search p{
+    font-size: 12px;
+    line-height: 19.6px;
+    font-weight: 400;
+    color: #353732;
+    font-family: 'Georgia';
+    margin-bottom: 0px;
+}
+
+.textpole{
+    width: 390px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #00000021;
+    background-color: #E5E7EB;
+    opacity: 25%;
+    color: black;
+}
+
+.button{
+    background-color: #353732;
+    border-radius: 7px;
+    border: none;
+    width: 25%;
+    height: 40px;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+button:hover {
+	animation: bounce 1s;
+}
+
+/*секция 3*/
+
+.section3{
+    max-width: 1440px;
+    margin: 0% auto;
+    height: 2900px;
+    background-color: rgb(247, 247, 247);
+}
+
+.container3{
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    padding-right: 60px;
+}
+
+.trvl{
+    border-radius: 10px;
+}
+
+.travel{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Palatino';
+    color: #45525B;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.signature{
+    font-size: 16px;
+    color: #45525B;
+    margin-top: 2%;
+    line-height: 22.4px;
+    margin-bottom: 1%;
+    font-family: 'Georgia';
+}
+
+.desc_text{
+    margin-left: 20px;
+}
+
+.minitext1{
+    font-size: 11px;
+    line-height: 16.8px;
+    font-weight: 400;
+    color: #45525B;
+    font-family: 'Georgia';
+}
+
+.container4{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.container5{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.container6{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 90px;
+}
+
+.minitext2{
+    font-size: 10px;
+    /* padding-top: 10px; */
+}
+
+.container7{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 70px;
+}
+
+.container8{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+.container17{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.container9{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+.container10{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+
+.container11{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 370px;
+}
+
+.container12{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 95px;
+}
+
+.container13{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 170px;
+}
+
+.container14{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 85px;
+}
+
+.container15{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+.container16{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.link_page{
+    padding-right: 5px;
+    color: #575445;
+    font-size: 15px;
+    line-height: 22.4px;
+    font-weight: 400;
+    font-family: 'Georgia';
+}
+
+.empty{
+    cursor: pointer;
+}
+
+/* подвал */
+
+.underground{
+    max-width: 40%;
+    margin: 0% auto;
+    height: 350px;
+    background-color: white;
+}
+
+.under_all{
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.down_logo{
+    justify-content: center;
+    display: flex;
+}
+
+.under_logo{
+    padding-right: 700px;
+}
+
+.down_text_1{
+    justify-content: center;
+    display: flex;
+}
+
+.down_text_2{
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.down_text_3{
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+}
+
+.link_str{
+    color: #45525B;
+    font-family: "Georgia";
+    font-size: 13px;
+}
+
+.link_arc{
+    margin-left: 30px;
+    color: #45525B;
+    font-family: "Georgia";
+    padding-right: 670px;
+    font-size: 15px;
+}
+
+.instr{
+    color: #45525B;
+    font-family: "Georgia";
+    font-size: 14px;
+}
+
+.guide{
+    margin-left: 30px;
+    color: #45525B;
+    font-family: "Georgia";
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.lcss{
+    color: #45525B;
+    font-family: "Georgia";
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.chlg{
+    margin-left: 30px;
+    color: #45525B;
+    font-family: "Georgia";
+    padding-right: 430px;
+    font-size: 14px;
+}
+
+span{
+    font-family: "Georgia";
+    color: #353732;
+    padding-right: 245px;
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 500;
+}
